@@ -1,0 +1,105 @@
+@media screen and (max-width: 1650px) {
+    .nav-main > ul > li { padding: 0px; }
+    
+    .nav-item, .nav-item-selected-page { 
+        font-size: 2em;
+        margin-right: 30px;
+    }
+
+    .paragraph {
+        font-size: 23px;
+        padding: 10px;
+    }
+    
+    .main-poster { 
+        width: 70%;
+        height: 460px; 
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .header-paragraph { font-size: 35px; } 
+    .paragraph { font-size: 20px; }
+    .nav-item, .nav-item-selected-page { font-size: 1.8em; }
+}
+
+@media screen and (max-width: 950px) {    
+    .nav-main > ul > li { padding: 3px; }
+    .home-image, .side-image, .header-paragraph { padding: 10px; }
+    
+    .main-poster {
+        width: 67%;
+        height: 460px;
+    }
+    
+    .paragraph { 
+        font-size: 17.8px; 
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .side-image, .home-image { display: none; }
+    .header-paragraph { font-size: 30px; }
+    .paragraph { font-size: 20px; }
+    .header.paragraph { font-size: 25px; }
+    .nav-main > ul { float: none; }
+    .header-image { margin: 0; }
+
+    .nav-main { 
+        height: 56px; 
+        width: 100%;
+    }
+    
+    .nav-main > ul > li { 
+        padding: 0;
+        float: left;
+        width: 20%; 
+    }
+    
+    .nav-item, .nav-item-selected-page {
+    	font-size: 0.9em;
+        width: 20%;
+        height: 56px;
+        line-height: 56px;
+        padding: 0;
+    }
+    
+    .main-poster {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .home-image {
+        width: 225px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .paragraph { font-size: 17px; }
+    
+    .music-box {
+        width: 100% auto;
+        padding: 1px;
+    }
+    
+    .photo-tab-image {
+        width: 90%;
+        height: 20%;
+        float: none;
+    }
+    
+    .main-poster { 
+        width: 100%; 
+        height: 1500px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+	.nav-item, .nav-item-selected-page { font-size: 0.8em; }
+}
+
+@media screen and (max-width: 300px) {
+    body, html { width: 370px; }
+}

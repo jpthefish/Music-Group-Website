@@ -1,0 +1,42 @@
+.nav-main > ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+            
+.nav-main > ul > li {
+    float: none;
+    padding: 25px;
+    font-family: sans-serif;
+}
+            
+.nav-item {
+    display: inline-block;
+    padding: 0px 5px;
+    height: 100px;
+    line-height: 100px;
+    color: #222;
+    text-decoration: none;
+    font-size: 2.7em;
+        
+    -webkit-transition: all 0.6s ease;
+       -moz-transition: all 0.6s ease;
+         -o-transition: all 0.6s ease;
+        -ms-transition: all 0.6s ease;
+            transition: all 0.6s ease;
+}
+ 
+.nav-item-selected-page {
+    display: inline-block;
+    padding: 0px 5px;
+    height: 100px;
+    line-height: 100px;
+    text-decoration: none;
+    font-size: 2.7em;
+    color: red;
+}
+
+.nav-item:hover {
+    color: red;
+}
